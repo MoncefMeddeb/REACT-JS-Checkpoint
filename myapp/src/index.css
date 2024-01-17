@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Navbar styling */
+.navbar {
+    background-color: #3498db; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 15px; /* Padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem; /* Increase brand font size */
+    font-weight: bold; /* Bold brand text */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text color for nav links */
+    margin: 0 15px; /* Spacing between nav links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f39c12; /* Orange hover color for nav links */
+  }
+  /* styles.css */
+
+/* Navbar styling */
+.bg-body-tertiary {
+    background-color: #3498db; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 15px; /* Padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+  }
+  
+  .bg-body-tertiary .navbar-brand {
+    font-size: 1.8rem; /* Increase brand font size */
+    font-weight: bold; /* Bold brand text */
+  }
+  
+  .bg-body-tertiary .navbar-nav .nav-link {
+    color: #ffffff; /* White text color for nav links */
+    margin: 0 15px; /* Spacing between nav links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .bg-body-tertiary .navbar-nav .nav-link:hover {
+    color: #f39c12; /* Orange hover color for nav links */
+  }
+  
+  /* Toggle button styling */
+  .bg-body-tertiary .navbar-toggler {
+    border-color: #ffffff; /* White border color for toggle button */
+  }
+  
+  /* Collapse styling */
+  .bg-body-tertiary .navbar-collapse {
+    justify-content: flex-end; /* Align items to the end in the collapse */
+  }
+  
+  .bg-body-tertiary .navbar-text a {
+    color: #ffffff; /* White color for the link in navbar text */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .bg-body-tertiary .navbar-text a:hover {
+    color: #f39c12; /* Orange hover color for the link in navbar text */
+  }
+  
+  
+  /* Container styling */
+  .container {
+    margin-top: 30px; /* Increased margin-top for better spacing */
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #2ecc71; /* Green header text color */
+  }
+  
+  /* Badge styling */
+  .badge {
+    background-color: #e74c3c; /* Red badge background color */
+    color: #ffffff; /* White text color for badge */
+    padding: 5px 10px; /* Padding for better appearance */
+    border-radius: 5px; /* Rounded corners for badge */
+  }
+  
+  /* Card styling */
+  .card {
+    border: 2px solid #ecf0f1; /* Border color for the card */
+    border-radius: 15px; /* Rounded corners for the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Card shadow */
+    margin-bottom: 20px; /* Margin at the bottom for spacing */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 15px; /* Rounded corners for top-left */
+    border-top-right-radius: 15px; /* Rounded corners for top-right */
+    max-height: 200px; /* Maximum height for the card image */
+    object-fit: cover; /* Cover the entire card with the image */
+  }
+  
